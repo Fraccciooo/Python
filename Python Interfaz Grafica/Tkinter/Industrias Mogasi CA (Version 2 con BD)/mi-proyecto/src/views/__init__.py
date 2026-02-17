@@ -1,0 +1,2 @@
+# FILE: /mi-proyecto/mi-proyecto/src/views/__init__.py
+# Este archivo se encarga de la presentación de la interfaz de usuario. Contiene funciones que renderizan las vistas y manejan la interacción del usuario.
