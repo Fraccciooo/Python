@@ -11,7 +11,7 @@ def generar_contraseñas(caracteres, longitud):
         for caracter in caracteres:
             for subcontraseña in generar_contraseñas(caracteres, longitud - 1):
                 yield caracter + subcontraseña
-                  
+
 def fuerza_bruta_contraseña(contraseña_objetivo):
     longitud_maxima = len(contraseña_objetivo)  # Longitud máxima igual a la longitud de la contraseña objetivo
     intentos = 0  # Contador de intentos
